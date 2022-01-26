@@ -1,9 +1,12 @@
 export default {
+  // router: {
+  //   base: '/lp/home_renewal/' // サブディレクトリのパス
+  // },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'home-refactor',
+    title: '関東で出張整体をお探しならクオースホーム',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },

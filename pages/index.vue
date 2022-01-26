@@ -4,6 +4,7 @@
     <CourseInfo/>
     <CtaArea/>
     <UserTheme/>
+    <UserAnswer/>
   </main>
 </template>
 
