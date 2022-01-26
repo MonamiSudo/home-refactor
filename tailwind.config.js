@@ -9,9 +9,9 @@ module.exports = {
       }
     },
     screens: {
-      sp: {'max': '559px'},
+      pc: {'max': '1024px'}, // 下に記述したプロパティのほうが優先して適用される。
       tab: {'max': '768px'},
-      pc: {'max': '1024px'}
+      sp: {'max': '559px'}
     },
     extend: {},
   },

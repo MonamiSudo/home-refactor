@@ -1,10 +1,10 @@
 <template>
   <section class="py-14">
-    <div class="mx-auto max-w-6xl">
+    <div class="mx-auto max-w-6xl tab:w-11/12">
       <h2 class="text-center text-3xl font-bold tracking-widest">こんなお悩みありませんか？</h2>
-      <ul class="flex justify-center mt-10">
-        <li class="circle-item bg-blue-thin w-56 h-56 rounded-full relative mx-4" v-for="item in items" :key="item.id">
-          <p class="w-10/12 mx-auto pt-4 leading-relaxed">{{ item.text }}</p>
+      <ul class="flex justify-center mt-10 tab:flex-wrap">
+        <li class="circle-item bg-blue-thin w-56 h-56 rounded-full relative mx-4 tab:w-5/12 tab:h-72 sp:w-1/2 sp:m-0 sp:h-44" v-for="item in items" :key="item.id">
+          <p class="w-10/12 mx-auto pt-4 leading-relaxed tab:pt-10 tab:text-center">{{ item.text }}</p>
         </li>
       </ul>
     </div>
