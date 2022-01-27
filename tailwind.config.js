@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     screens: {
       pc: {'max': '1024px'}, // 下に記述したプロパティのほうが優先して適用される。
-      tab: {'max': '768px'},
+      tab: {'max': '769px'},
       sp: {'max': '559px'}
     },
     extend: {
@@ -21,6 +21,10 @@ module.exports = {
           thin: '#F79EAA'
         }
       },
+      width: {
+        '11/50': '22%',
+        '12/25': '48%'
+      }
     },
   },
   variants: {

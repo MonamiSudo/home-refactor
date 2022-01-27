@@ -5,6 +5,8 @@
     <CtaArea/>
     <UserTheme/>
     <UserAnswer/>
+    <CustomerVoice/>
+    <StaffList/>
   </main>
 </template>
 
