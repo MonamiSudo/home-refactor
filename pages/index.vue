@@ -1,12 +1,17 @@
 <template>
   <main>
-    <FirstView/>
+    <FirstView/> 
     <CourseInfo/>
     <CtaArea/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
     <StaffList/>
+    <StoreAchivement/>
+    <BeforeAfter/>
+    <CoronaMeasure/>
+    <UsageFlow/>
+    <MessageToMother/>
   </main>
 </template>
 
