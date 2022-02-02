@@ -8,10 +8,14 @@
     <CustomerVoice/>
     <StaffList/>
     <StoreAchivement/>
+    <CtaArea/>
     <BeforeAfter/>
     <CoronaMeasure/>
     <UsageFlow/>
+    <CtaArea/>
     <MessageToMother/>
+    <CoursePrice/>
+    <CtaArea/>
   </main>
 </template>
 

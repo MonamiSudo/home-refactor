@@ -4,7 +4,7 @@
       <h2 class="text-center text-3xl font-bold tracking-widest sp:text-2xl">こんなお悩みありませんか？</h2>
       <ul class="flex justify-center mt-10 tab:flex-wrap">
         <li class="circle-item bg-blue-thin w-56 h-56 rounded-full relative mx-4 tab:w-5/12 tab:h-72 sp:w-1/2 sp:m-0 sp:h-44" v-for="item in items" :key="item.id">
-          <p class="w-10/12 mx-auto pt-4 leading-relaxed tab:pt-10 tab:text-center sp:pt-3 sp:font-bold sp:text-sp">{{ item.text }}</p>
+          <p class="w-10/12 mx-auto pt-4 leading-relaxed tab:pt-10 tab:text-center sp:pt-3 sp:text-sp">{{ item.text }}</p>
         </li>
       </ul>
     </div>
