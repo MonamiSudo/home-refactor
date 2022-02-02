@@ -39,7 +39,15 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/google-gtag' // Google アナリティクスパッケージ
   ],
+  'google-gtag': {
+    id: [ //サイトのアナリティクスID
+      'UA-185752540-1',
+      'G-WHE7CJ1ZEF'
+    ],
+    debug: true,  // 開発確認用：デプロイ時にはfalseにする
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

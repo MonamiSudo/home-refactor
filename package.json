@@ -17,6 +17,7 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-gtag": "^1.0.4",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.4",
     "sass": "^1.49.0",
