@@ -1,21 +1,21 @@
 <template>
   <main>
-    <FirstView/> 
-    <CourseInfo/>
-    <CtaArea/>
+    <HomeFirstView/> 
+    <HomeCourseInfo/>
+    <HomeCtaArea/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
     <StaffList/>
     <StoreAchivement/>
-    <CtaArea/>
+    <HomeCtaArea/>
     <BeforeAfter/>
     <CoronaMeasure/>
     <UsageFlow/>
-    <CtaArea/>
+    <HomeCtaArea/>
     <MessageToMother/>
     <CoursePrice/>
-    <CtaArea/>
+    <HomeCtaArea/>
   </main>
 </template>
 

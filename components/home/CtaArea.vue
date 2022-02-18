@@ -1,5 +1,5 @@
 <template>
-  <section class="p-cta py-20 px-14 sp:py-10 sp:px-1">
+  <section class="p-cta p-14 sp:py-10 sp:px-1">
     <div class="mx-auto max-w-6xl tab:w-11/12">
       <div class="text-center text-white">
         <h2 class="text-2xl font-bold tracking-widest sp:text-xl">【期間限定：3月31日まで】<br>アプリから初めてのご予約で<br class="hidden sp:block">施術料金が<span class="text-4xl text-yellow-500">50%OFF!</span></h2>
@@ -12,14 +12,14 @@
           <div class="flex justify-center">
             <a class="w-56 h-20 m-4 hover:cursor-pointer sp:m-2" 
               href="https://apps.apple.com/jp/app/qohs-home/id1483571890" 
-              onclick="gtag('event', 'click', { 'event_category': 'app', 'event_label': 'appstore_home'});"
+              onClick="gtag('event', 'click', { 'event_category': 'app', 'event_label': 'appstore_home'});"
               target="_blank"
             >
               <img class="w-full h-full" src="@/assets/image/cta-area/app-store.svg" alt="">
             </a>
             <a class="w-56 h-20 m-4 hover:cursor-pointer sp:m-2"
               href="https://play.google.com/store/apps/details?id=me.qohs.qohsapp"
-              onclick="gtag('event', 'click', { 'event_category': 'app', 'event_label': 'googleplaystore_home'});"
+              onClick="gtag('event', 'click', { 'event_category': 'app', 'eventli_label': 'googleplaystore_home'});"
               target="_blank"
             >
               <img class="w-full h-full" src="@/assets/image/cta-area/google-play.svg" alt="">
