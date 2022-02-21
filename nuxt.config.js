@@ -1,6 +1,8 @@
+// リスティング広告で必要なトラッキングコード
 const metaPixelCode = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init', '1946029592242777');fbq('track', 'PageView');`
 const metaPixelNoScriptCode = `<img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=1946029592242777&ev=PageView&noscript=1"/>`
-// const mierucaEmbedCode = `window.__fid = window.__fid || [];__fid.push([454328126]);(function() {function mieruca(){if(typeof window.__fjsld != "undefined") return; window.__fjsld = 1; var fjs = document.createElement('script'); fjs.type = 'text/javascript'; fjs.async = true; fjs.id = "fjssync"; var timestamp = new Date;fjs.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://hm.mieru-ca.com/service/js/mieruca-hm.js?v='+ timestamp.getTime(); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(fjs, x); };setTimeout(mieruca, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent("onload", mieruca) : window.addEventListener("load", mieruca, false)) : mieruca();})();`
+// ヒートマップツールのトラッキングコード
+const mierucaEmbedCode = `window.__fid = window.__fid || [];__fid.push([454328126]);(function() {function mieruca(){if(typeof window.__fjsld != "undefined") return; window.__fjsld = 1; var fjs = document.createElement('script'); fjs.type = 'text/javascript'; fjs.async = true; fjs.id = "fjssync"; var timestamp = new Date;fjs.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://hm.mieru-ca.com/service/js/mieruca-hm.js?v='+ timestamp.getTime(); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(fjs, x); };setTimeout(mieruca, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent("onload", mieruca) : window.addEventListener("load", mieruca, false)) : mieruca();})();`
 
 export default {
   router: {
@@ -32,11 +34,12 @@ export default {
         innerHTML: metaPixelCode // scriptタグに入れたいコード
       },
       // heat map tool
-      // {
-      //   id: 'mierucajs',
-      //   hid: 'mierucaEmbedHead',
-      //   innerHTML: mierucaEmbedCode
-      // }
+      {
+        type: "text/Javascript",
+        // hid: 'mierucaEmbedHead',
+        hid: 'mierucajs',
+        innerHTML: mierucaEmbedCode
+      }
     ],
     noscript: [
       {
@@ -48,8 +51,8 @@ export default {
     __dangerouslyDisableSanitizersByTagID: { // inject許可
       'metaPixelCodeHead': ['innerHTML'],
       'metaPixelCodeBody': ['innerHTML'],
-      // 'mierucaEmbedCode': ['innerHTML'],
-    }
+      'mierucajs': ['innerHTML'],
+    },
     // ====================================================================
     // scriptタグ設定終わり
     // ====================================================================
@@ -82,7 +85,6 @@ export default {
       'UA-185752540-1',
       'G-WHE7CJ1ZEF'
     ]
-    // id: 'UA-185752540-1'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
