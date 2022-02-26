@@ -10,14 +10,14 @@
         <div class="mt-10 sp:mt-7"> 
           <p class="text-2xl font-bold">いますぐ無料ダウンロード！</p>
           <div class="flex justify-center">
-            <a class="w-56 h-20 m-4 hover:cursor-pointer sp:m-2" 
+            <a class="ga_applestore_lp w-56 h-20 m-4 hover:cursor-pointer sp:m-2" 
               href="https://apps.apple.com/jp/app/qohs-home/id1483571890" 
               onClick="gtag('event', 'click', { 'event_category': 'app', 'event_label': 'appstore_home'});"
               target="_blank"
             >
               <img class="w-full h-full" src="@/assets/image/cta-area/app-store.svg" alt="">
             </a>
-            <a class="w-56 h-20 m-4 hover:cursor-pointer sp:m-2"
+            <a class="ga_googleplay_lp w-56 h-20 m-4 hover:cursor-pointer sp:m-2"
               href="https://play.google.com/store/apps/details?id=me.qohs.qohsapp"
               onClick="gtag('event', 'click', { 'event_category': 'app', 'eventli_label': 'googleplaystore_home'});"
               target="_blank"

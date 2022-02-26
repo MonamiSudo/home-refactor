@@ -36,7 +36,6 @@ export default {
       // heat map tool
       {
         type: "text/Javascript",
-        // hid: 'mierucaEmbedHead',
         hid: 'mierucajs',
         innerHTML: mierucaEmbedCode
       }
