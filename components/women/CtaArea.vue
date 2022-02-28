@@ -14,6 +14,7 @@
               href="https://apps.apple.com/jp/app/qohs-home/id1483571890" 
               onClick="gtag('event', 'click', { 'event_category': 'app', 'event_label': 'appstore_women'});"
               target="_blank"
+              @click="womenAppStore()"
             >
               <img class="w-full h-full" src="@/assets/image/cta-area/app-store.svg" alt="">
             </a>
@@ -21,6 +22,7 @@
               href="https://play.google.com/store/apps/details?id=me.qohs.qohsapp"
               onClick="gtag('event', 'click', { 'event_category': 'app', 'eventli_label': 'googleplaystore_women'});"
               target="_blank"
+              @click="womenGooglePlay()"
             >
               <img class="w-full h-full" src="@/assets/image/cta-area/google-play.svg" alt="">
             </a>
@@ -30,6 +32,27 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    womenAppStore() {
+      this.$ga.event({
+        eventCategory: 'app',
+        eventAction: 'click',
+        eventLabel: 'appstore'
+      })
+    },
+    womenGooglePlay() {
+      this.$ga.event({
+        eventCategory: 'app',
+        eventAction: 'click',
+        eventLabel: 'googleplay'
+      })
+    },
+  }
+}
+</script>
 
 <style scoped>
   .p-cta {
