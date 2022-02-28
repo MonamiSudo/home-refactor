@@ -7,7 +7,7 @@
     </div>
     <small class="inline-block bg-white w-full py-1 text-center">©︎ 2021 SMILE CREATE GROUP Co., Ltd</small>
     <figure class="banner-half hidden sp:block">
-      <img src="@/assets/image/footer/limited-banner2.png" alt="" @click="scrollToCta()">
+      <img src="@/assets/image/footer/line-banner.png" alt="" @click="scrollToCta()">
     </figure>
   </footer>
 </template>
@@ -35,6 +35,12 @@ export default {
         left: 0,
         behavior: 'smooth'
       });
+      // ↓ GA計測
+      this.$ga.event({
+        eventCategory: 'banner',
+        eventAction: 'click',
+        eventLabel: 'footer_50off'
+      })
     }
   },
   mounted() {
