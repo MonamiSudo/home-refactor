@@ -2,20 +2,20 @@
   <main>
     <WomenFirstView/>
     <WomenCourseInfo/>
-    <WomenCtaArea/>
+    <WomenCtaLine/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
     <StaffList/>
     <StoreAchivement/>
-    <WomenCtaArea/>
+    <WomenCtaLine/>
     <BeforeAfter/>
     <CoronaMeasure/>
     <UsageFlow/>
-    <WomenCtaArea/>
+    <WomenCtaLine/>
     <MessageToMother/>
     <CoursePrice/>
-    <WomenCtaArea/>
+    <WomenCtaLine/>
   </main>
 </template>
 

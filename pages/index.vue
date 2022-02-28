@@ -2,20 +2,20 @@
   <main>
     <HomeFirstView/> 
     <HomeCourseInfo/>
-    <HomeCtaArea/>
+    <HomeCtaLine/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
     <StaffList/>
     <StoreAchivement/>
-    <HomeCtaArea/>
+    <HomeCtaLine/>
     <BeforeAfter/>
     <CoronaMeasure/>
     <UsageFlow/>
-    <HomeCtaArea/>
+    <HomeCtaLine/>
     <MessageToMother/>
     <CoursePrice/>
-    <HomeCtaArea/>
+    <HomeCtaLine/>
   </main>
 </template>
 

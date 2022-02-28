@@ -3,11 +3,12 @@ const metaPixelCode = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function
 const metaPixelNoScriptCode = `<img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=1946029592242777&ev=PageView&noscript=1"/>`
 // ヒートマップツールのトラッキングコード
 const mierucaEmbedCode = `window.__fid = window.__fid || [];__fid.push([454328126]);(function() {function mieruca(){if(typeof window.__fjsld != "undefined") return; window.__fjsld = 1; var fjs = document.createElement('script'); fjs.type = 'text/javascript'; fjs.async = true; fjs.id = "fjssync"; var timestamp = new Date;fjs.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://hm.mieru-ca.com/service/js/mieruca-hm.js?v='+ timestamp.getTime(); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(fjs, x); };setTimeout(mieruca, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent("onload", mieruca) : window.addEventListener("load", mieruca, false)) : mieruca();})();`
+// Googleアナリティクスのコード
 const googleAnalyticsCode = `window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-WHE7CJ1ZEF'); gtag('config', 'UA-185752540-1');`
 
 export default {
   router: {
-    // base: '/lp/home/' // サブディレクトリのパス → デプロイ時にコメント外す
+    base: '/lp/home/' // サブディレクトリのパス → デプロイ時にコメント外す
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -22,8 +23,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }, // ローカル
-      // { rel: 'icon', type: 'image/x-icon', href: '/lp/home/favicon.ico' } // 本番
+      // { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }, // ローカル
+      { rel: 'icon', type: 'image/x-icon', href: '/lp/home/favicon.ico' } // 本番
     ],
     // =====================================================================
     // 以下head内のscriptタグ設定
@@ -78,8 +79,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https:go.nuxtjs.dev/tailwindcss
+    '@nuxtjs/google-analytics', // Google アナリティクスパッケージ
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-analytics' // Google アナリティクスパッケージ
   ],
   googleAnalytics: {
     id: [ //サイトのアナリティクスID
@@ -91,7 +92,7 @@ export default {
   modules: [
     [ '@nuxtjs/google-gtag', {
       id: 'G-WHE7CJ1ZEF',
-      debug: false // trueだとlocalでも発火する。
+      debug: true // trueだとlocalでも発火する。
     } ]
   ],
   
