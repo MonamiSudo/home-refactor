@@ -16,7 +16,6 @@
     <div>
       <div class="p-cta__bg py-4 px-14 text-white sp:px-4">
         <p class="p-cta__caution-text">※ 電話でもご予約いただけます　<br class="sp"><a class="text-xl border-b-2" href="tel:090-7999-5882">090-7999-5882</a>（担当：赤木）</p>
-        <p class="p-cta__caution-text py-2">※ Google Playでインストールするには、Androidのバージョンが11以上の必要があります。Android10以前をご利用のお客様は、バージョンアップをお願いいたします。</p>
         <p class="p-cta__caution-text py-2">※ 出張対応地域<br>東京都全域、神奈川（川崎市、横浜市）、埼玉（所沢・浦和・越谷より東京に近い場所）、千葉（松戸・津田沼より東京に近い場所）今後、随時拡大予定です。</p>
       </div>
     </div>
