@@ -6,15 +6,19 @@
       </figure>
     </div>
     <small class="inline-block bg-white w-full py-1 text-center">©︎ 2021 SMILE CREATE GROUP Co., Ltd</small>
-    <figure class="banner-half hidden sp:block">
-      <img src="@/assets/image/footer/line-banner.png" alt="" @click="scrollToCta()">
-    </figure>
+    <a href="https://lin.ee/zTsXoxq" class="banner-half hidden sp:block">
+      <!-- <img src="@/assets/image/footer/limited-banner2.png" alt="" @click="scrollToCta()"> -->
+      <img src="@/assets/image/footer/line-banner.png" alt="" @click="homeAddLine()">
+    </a>
   </footer>
 </template>
 
 <script>
 export default {
   methods: {
+    // ===============================================================================
+    // バナー固定表示
+    // ===============================================================================
     bannerToggleActive() { // 下にバナーを固定表示させる
       const target = document.querySelector('.banner-half'); // 表示させるバナー
       const scrollY = window.scrollY; // スクロール量（Y）
@@ -26,6 +30,19 @@ export default {
       else
         target.classList.remove('active')
     },
+    // ===============================================================================
+    // GAでイベントを計測
+    // ===============================================================================
+    homeAddLine() {
+      this.$ga.event({
+        eventCategory: 'LINE',
+        eventAction: 'click',
+        eventLabel: 'line_home'
+      })
+    },
+    // ===============================================================================
+    // アプリの時に発火させる関数
+    // ===============================================================================
     scrollToCta() { // バナークリック時にCTAまでスクロール
       const target = document.querySelector('.p-cta'); // CTAエリア取得
       const targetRect = target.getBoundingClientRect(); // CTAエリアのブラウザからの相対位置

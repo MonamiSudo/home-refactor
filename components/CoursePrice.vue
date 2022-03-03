@@ -12,7 +12,8 @@
               <tr>
                 <th></th>
                 <th class="bg-blue-dark text-white border-2 border-gray-600 font-normal px-10 py-3 sp:py-3 sp:px-5 sp:text-base">通常料金</th>
-                <th class="bg-blue-dark text-white border-2 border-gray-600 font-normal px-10 py-3 sp:py-3 sp:px-5 sp:text-base">アプリ初回<br class="hidden sp:block">予約料金</th>
+                <!-- <th class="bg-blue-dark text-white border-2 border-gray-600 font-normal px-10 py-3 sp:py-3 sp:px-5 sp:text-base">アプリ初回<br class="hidden sp:block">予約料金</th> -->
+                <th class="bg-blue-dark text-white border-2 border-gray-600 font-normal px-10 py-3 sp:py-3 sp:px-5 sp:text-base">LINE初回<br class="hidden sp:block">予約料金</th>
               </tr>
               <!-- 2行目 -->
               <tr>
