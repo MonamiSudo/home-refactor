@@ -8,6 +8,7 @@
     <CustomerVoice/>
     <StaffList/>
     <StoreAchivement/>
+    <Media/>
     <WomenCtaLine/>
     <BeforeAfter/>
     <CoronaMeasure/>
