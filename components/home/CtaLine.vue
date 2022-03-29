@@ -1,9 +1,9 @@
 <template>
   <section class="p-cta">
     <div class="w-full p-14 sp:py-10 sp:px-1">
-      <div class="mx-auto max-w-6xl tab:w-11/12">
+      <div class="mx-auto max-w-6xl tab:w-11/12 sp:w-full">
         <div class="text-center text-white">
-          <h2 class="text-2xl font-bold tracking-widest sp:text-xl">【期間限定：3月31日まで】<br><span class="text-green-line text-4xl">LINE</span>から初めてのご予約で<br class="hidden sp:block">施術料金が<span class="text-4xl text-yellow-500">50%OFF!</span></h2>
+          <h2 class="text-2xl font-bold tracking-widest sp:text-lg">ご好評につき、5月31日(火)まで延長！<br><span class="text-green-line text-4xl">LINE</span>から初めてのご予約で<br class="hidden sp:block">施術料金が<span class="text-4xl text-yellow-500">50%OFF!</span></h2>
         </div>
         <div class="mt-14">
           <p class="text-white text-center text-2xl font-bold mb-6">友達追加して今すぐ予約する！</p>

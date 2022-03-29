@@ -1,8 +1,8 @@
 <template>
   <section class="p-cta p-14 sp:py-10 sp:px-1">
-    <div class="mx-auto max-w-6xl tab:w-11/12">
+    <div class="mx-auto max-w-6xl tab:w-11/12 sp:w-full">
       <div class="text-center text-white">
-        <h2 class="text-2xl font-bold tracking-widest sp:text-xl">【期間限定：3月31日まで】<br>アプリから初めてのご予約で<br class="hidden sp:block">施術料金が<span class="text-4xl text-yellow-500">50%OFF!</span></h2>
+        <h2 class="text-2xl font-bold tracking-widest sp:text-xl">ご好評につき、5月31日(火)まで延長！<br>アプリから初めてのご予約で<br class="hidden sp:block">施術料金が<span class="text-4xl text-yellow-500">50%OFF!</span></h2>
         <div class="mt-10 text-lg sp:mt-7">
           <p>アプリの予約画面でクーポンコードを<br class="hidden sp:block">ご入力ください。</p>
           <p>クーポンコード：<span class="font-bold">QOHS50</span></p>
