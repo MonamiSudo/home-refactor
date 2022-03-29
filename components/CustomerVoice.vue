@@ -2,13 +2,13 @@
   <section class="py-14 bg-blue-thin">
     <h2 class="text-3xl font-bold text-center">お客様の声</h2>
     <div class="mx-auto max-w-6xl tab:w-11/12">
-      <ul class="flex justify-between flex-wrap gap-y-6 mt-12">
-        <li class="bg-white p-6 rounded-lg w-12/25 sp:w-full" v-for="item in items" :key="item.id">
+      <ul class="flex justify-between flex-wrap gap-y-6 mt-12 sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">
+        <li class="bg-white p-6 rounded-lg w-12/25 sp:inline-block sp:w-43/50 sp:mr-4 sp:align-top" v-for="item in items" :key="item.id">
           <figure class="h-72">
             <img class="rounded-lg h-full w-full object-cover" :src="item.image" alt="">
           </figure>
           <h3 class="text-lg text-blue-dark mt-6" v-html="item.heading"></h3>
-          <p class="leading-relaxed tracking-wider mt-1" v-html="item.text"></p>
+          <p class="leading-relaxed tracking-wider mt-1 sp:whitespace-pre-wrap" v-html="item.text"></p>
         </li>
       </ul>
     </div>
