@@ -1,4 +1,4 @@
-<!-- 一般的な半額バナーを表示させるにはこのフッターコンポーネント -->
+<!-- マタニティの半額バナーを表示させるにはこのフッターコンポーネント -->
 <template>
   <footer>
     <div class="bg-blue-dark py-10">
@@ -9,7 +9,7 @@
     <small class="inline-block bg-white w-full py-1 text-center">©︎ 2021 SMILE CREATE GROUP Co., Ltd</small>
     <a href="https://lin.ee/zTsXoxq" class="banner-half hidden sp:block">
       <!-- <img src="@/assets/image/footer/limited-banner2.png" alt="" @click="scrollToCta()"> -->
-      <img src="@/assets/image/footer/line-banner.png" alt="" @click="homeAddLine()">
+      <img src="@/assets/image/footer/banner-maternity.png" alt="" @click="homeAddLine()">
     </a>
   </footer>
 </template>
