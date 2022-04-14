@@ -25,6 +25,7 @@
 <script>
 export default {
   methods: {
+    // @nuxtjs/google-analytics
     womenAddLine() {
       this.$ga.event({
         eventCategory: 'LINE',

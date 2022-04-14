@@ -1,6 +1,6 @@
 
 <template>
-  <div class="p-fv text-blue-dark pt-14 pr-12 pl-24 relative">
+  <div class="p-fv text-blue-dark pt-14 pr-12 pl-24 mb-44 relative">
     <div class="h-full flex justify-between">
       <div class="absolute z-10">
         <p class="p-fv__brand-name">QOHS HOME</p>
@@ -16,7 +16,7 @@
         <!-- <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div> -->
       </swiper>
-      
+
     </div>  
   </div>
 </template>

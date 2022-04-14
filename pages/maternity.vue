@@ -7,17 +7,20 @@
     <section v-else>
       <maternityFirstViewSP /> 
     </section>
+    <maternityCta />
     <maternityAbout />
     <maternityUserTheme />
     <maternityUserAnswer1 />
     <maternityUserAnswer2 />
     <CustomerVoice />
+    <maternityCta />
     <StoreAchivement />
     <maternityBeforeAfter />
     <StaffList />
     <CoronaMeasure />
     <maternityUsageFlow />
     <maternityCoursePrice />
+    <maternityCta />
   </main>
 </template>
 

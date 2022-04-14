@@ -36,6 +36,7 @@
 <script>
 export default {
   methods: {
+    // @nuxtjs/google-analytics
     womenAppStore() {
       this.$ga.event({
         eventCategory: 'app',
@@ -43,6 +44,7 @@ export default {
         eventLabel: 'appstore'
       })
     },
+    // @nuxtjs/google-analytics
     womenGooglePlay() {
       this.$ga.event({
         eventCategory: 'app',

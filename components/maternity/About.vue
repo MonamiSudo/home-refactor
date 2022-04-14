@@ -1,5 +1,5 @@
 <template>
-  <section class="py-40 sp:py-14">
+  <section class="py-14">
     <div class="max-w-6xl mx-auto tab:w-11/12">
       <div class="flex justify-between sp:flex-col-reverse">
         <div class="w-7/12 sp:w-full sp:mt-4">

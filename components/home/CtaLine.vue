@@ -7,7 +7,7 @@
         </div>
         <div class="mt-14">
           <p class="text-white text-center text-2xl font-bold mb-6">友達追加して今すぐ予約する！</p>
-          <a class="line w-max mx-auto block h-24" href="https://lin.ee/zTsXoxq" @click="homeAddLine()">
+          <a class="line w-max mx-auto block h-24" href="https://lin.ee/zTsXoxq" @click="homeAddLine()" target="_blank">
             <img class="h-full mx-auto" src="@/assets/image/cta-area/line-btn.png" alt="">
           </a>
         </div>
@@ -25,6 +25,7 @@
 <script>
 export default {
   methods: {
+    // @nuxtjs/google-analytics
     homeAddLine() {
       this.$ga.event({
         eventCategory: 'LINE',
