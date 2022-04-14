@@ -59,7 +59,7 @@ export default {
   // }
   .p-user-theme {
     &::before {
-      background-image: url(/lp/home/_nuxt/assets/image/maternity/userTheme/question-logo.png);
+      background-image: url(../../assets/image/maternity/userTheme/question-logo.png);
       content: "";
       display: inline-block;
       height: 60px;
