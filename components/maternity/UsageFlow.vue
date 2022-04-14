@@ -23,7 +23,7 @@ export default {
   data() {
     return {
       items: [
-        { id: 1, image: require('@/assets/image/usage-flow/flow1.jpg'), alt: 'アプリからコースを予約している', heading: 'LINEから予約', text: 'クオースの<a class="text-blue-dark underline" href="https://lin.ee/zTsXoxq" @click="homeAddLine()">公式LINE</a>を友達追加して、ご予約していただくことができます。'},
+        { id: 1, image: require('@/assets/image/usage-flow/flow1.jpg'), alt: 'LINEからコースを予約している', heading: 'LINEから予約', text: 'クオースの<a class="line-maternity text-blue-dark underline" href="https://lin.ee/zTsXoxq" @click="homeAddLine()">公式LINE</a>を友達追加して、ご予約していただくことができます。'},
         // アプリheading：アプリから予約
         // アプリテキスト：iPhoneをお使いの方は<a class="text-blue-dark underline" href="https://apps.apple.com/jp/app/qohs-home/id1483571890">App Store</a>から、iPhone以外のスマホをお使いの方は<a class="text-blue-dark underline" href="https://play.google.com/store/apps/details?id=me.qohs.qohsapp">Google Play</a>から、アプリをダウンロードしてください。
         { id: 2, image: require('@/assets/image/usage-flow/flow2.jpg'), alt: '予約を受けセラピストが出張している', heading: 'セラピストがご自宅へ伺います', text: 'セラピストがご予約いただいた時間の約5分前にご自宅へお伺いします。「インターホンを鳴らす前に連絡が欲しい」などのご要望がございましたらお申し付け下さい。'},
@@ -33,11 +33,12 @@ export default {
     }
   },
   methods: {
+    // @nuxtjs/google-analytics
     homeAddLine() {
       this.$ga.event({
         eventCategory: 'LINE',
         eventAction: 'click',
-        eventLabel: 'line_home'
+        eventLabel: 'line_maternity'
       })
     },
   }

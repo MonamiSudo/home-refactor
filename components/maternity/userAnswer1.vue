@@ -7,15 +7,27 @@
           <figure class="w-9 h-9">
             <img class="w-full h-full" src="@/assets/image/maternity/userAnswer/check-mark.png" alt="">
           </figure>
-          <p class="ml-2 sp:text-sm sp:w-full">{{ item.text }}</p>
+          <p class="ml-2 tracking-widest leading-relaxed sp:text-sm sp:w-full w-11/12">{{ item.text }}</p>
         </li>
       </ul>
     </div>
-    <ul class="flex mt-14">
-      <li class="w-80" v-for="image in images" :key="image.src">
-        <img class="w-full h-full" :src="image.src" alt="">
-      </li>
-    </ul>
+    <div class="flex overflow-hidden">
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
+          <img class="w-full h-full" :src="image.src" alt="">
+        </li>
+      </ul>
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
+          <img class="w-full h-full" :src="image.src" alt="">
+        </li>
+      </ul>
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
+          <img class="w-full h-full" :src="image.src" alt="">
+        </li>
+      </ul>
+    </div>  
   </section>
 </template>
 
@@ -32,9 +44,24 @@ export default {
       images: [
         { src: require('@/assets/image/maternity/userAnswer/treatment1.png') },
         { src: require('@/assets/image/maternity/userAnswer/treatment2.png') },
-        { src: require('@/assets/image/maternity/userAnswer/treatment3.png') },
+        { src: require('@/assets/image/maternity/userAnswer/treatment3.JPG') },
+        { src: require('@/assets/image/maternity/userAnswer/treatment4.png') },
       ]
     }
   }
 }
 </script>
+
+<style scoped lang="scss">
+  .slideshow {
+    animation: loop-slide 40s infinite linear 1s both;
+  }
+  @keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+</style>

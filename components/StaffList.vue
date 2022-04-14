@@ -1,6 +1,6 @@
 <template>
   <section class="py-14">
-    <div class="mx-auto max-w-6xl tab:w-11/12">
+    <div class="mx-auto max-w-6xl w-24/25 tab:w-11/12">
       <h2 class="text-3xl font-bold text-center">パートナー紹介</h2>
       <p class="text-gray-600 text-center mt-2 sp:text-left">出張には施術研修を受けたパートナー（セラピスト）が伺います。<br>アプリからご希望のパートナーを選ぶことができます。</p>
       <ul class="flex mt-14 justify-between flex-wrap gap-y-8 sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">

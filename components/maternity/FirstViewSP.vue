@@ -1,20 +1,19 @@
 <template>
-  <div class="p-fv">
+  <div class="p-fv p-fv-sp">
     <figure>
-      <img src="@/assets/image/maternity/first-view-sp/header-sp.png" alt="">
+      <img class="mx-auto" src="@/assets/image/maternity/first-view-sp/header-sp.png" alt="">
     </figure>
-    <swiper class="swiper" :options="swiperOption">
-      <swiper-slide v-for="(image, index) in images" :key="index">
-        <img class="w-full h-full" :src="image.link" alt="">
-      </swiper-slide>
-      <!-- <div class="swiper-button-prev" slot="button-prev"></div>
-      <div class="swiper-button-next" slot="button-next"></div> -->
-    </swiper>
-    <div class="p-fv__content">
-      <h1 class="p-fv__title text-blue-dark">ママのための<br>出張整体</h1>  
-      <p class="p-fv__brand-name font-bold text-blue-dark mt-10">QOHS HOME</p>
+    <client-only>
+      <swiper class="swiper" :options="swiperOption">
+        <swiper-slide v-for="(image, index) in images" :key="index">
+          <img class="w-full h-full" :src="image.link" alt="">
+        </swiper-slide>
+      </swiper>
+    </client-only >
+    <div class="p-fv-sp__content">
+      <h1 class="p-fv-sp__title text-blue-dark">ママのための<br>出張整体</h1>  
+      <p class="p-fv-sp__brand-name font-bold text-blue-dark mt-10">QOHS HOME</p>
     </div>
-    <!-- <p class="p-fv__catchcopy mt-36 mb-24">お腹に赤ちゃんがいる方へ</p> -->
   </div>
 </template>
 
@@ -48,7 +47,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .p-fv {
+  .p-fv-sp {
     &__content {
       padding-left: 46px;
     }

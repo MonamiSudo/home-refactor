@@ -4,7 +4,7 @@
       <h1 class="p-user-theme inline-block text-center text-2xl font-bold relative sp:text-xl">こんな<span class="text-3xl text-white">お悩み</span>ありませんか？</h1>
       <ul class="flex justify-between flex-wrap gap-y-6 mt-10">
         <li class="p-user-theme__item w-72 h-72 block bg-cover flex content-center items-center" v-for="item in items" :key="item.text">
-          <p class="w-full font-bold text-center px-6 tracking-widest leading-relaxed sp:text-sp" v-html="item.text"></p>
+          <p class="w-full  text-center px-6 tracking-widest leading-loose sp:text-sp" v-html="item.text"></p>
         </li>
       </ul>
     </div>
@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       items: [
-        { text: '妊娠が始まってから部分的にむくんでしまった。<br><br>特に手、足、首、背中にリンパが滞っている感じがしてほぐしたい・・' },
-        { text: 'お尻、お尻の奥に痛みを感じる。<br><br>痛いけど、どう直していいか分からない。' },
-        { text: 'お腹が大きくなってくるにつれて、腰の痛みが増してきた。<br><br>立ち上がる時など腰が痛い。' }
+        { text: '妊娠してから<span class="font-bold text-red-dark">むくみ</span>がすごい。<br><br>手足や首、背中に<span class="font-bold text-red-dark">リンパが滞っている</span>感じがしてほぐしたい・・' },
+        { text: '<span class="font-bold text-red-dark">お尻やお尻の奥</span>に痛みを感じる。<br><br>痛いけど、どう直していいか分からない。' },
+        { text: 'お腹が大きくなるにつれて、<span class="font-bold text-red-dark">腰の痛み</span>が増してきた。<br><br>立ち上がる時など腰が痛い・・' }
       ]
     }
   }

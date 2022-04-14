@@ -1,7 +1,7 @@
 <template>
   <section class="py-14 bg-blue-thin">
     <h2 class="text-3xl font-bold text-center">お客様の声</h2>
-    <div class="mx-auto max-w-6xl tab:w-11/12">
+    <div class="mx-auto max-w-6xl w-24/25 tab:w-11/12">
       <ul class="flex justify-between flex-wrap gap-y-6 mt-12 sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">
         <li class="bg-white p-6 rounded-lg w-12/25 sp:inline-block sp:w-43/50 sp:mr-4 sp:align-top" v-for="item in items" :key="item.id">
           <figure class="h-72">

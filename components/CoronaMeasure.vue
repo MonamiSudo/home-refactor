@@ -1,6 +1,6 @@
 <template>
   <section class="py-14">
-    <div class="mx-auto max-w-6xl tab:w-11/12">
+    <div class="mx-auto max-w-6xl w-24/25 tab:w-11/12">
       <h2 class="text-3xl font-bold text-center text-red-400">新型コロナウイルス感染症対策について</h2>
       <div class="mt-5 text-center sp:text-left sp:text-sp-base">
         <p>安心してサービスをご利用いただくために、クオースではパートナー(セラピスト)一同が新型コロナウイルス感染症対策を行なっています。</p>

@@ -1,22 +1,19 @@
 
 <template>
-  <div class="p-fv text-blue-dark pt-14 pr-12 pl-24 mb-44 relative">
+  <div class="p-fv p-fv-pc text-blue-dark pt-14 pr-12 pl-24 mb-44 relative">
     <div class="h-full flex justify-between">
       <div class="absolute z-10">
-        <p class="p-fv__brand-name">QOHS HOME</p>
-        <p class="p-fv__catchcopy mt-36 mb-24">お腹に赤ちゃんがいる方へ</p>
-        <h1 class="p-fv__title">ママのための<br>出張整体</h1>
-        <!-- <h1 class="text-9xl absolute">ママ</h1> -->
+        <p class="p-fv-pc__brand-name tab:text-lg">QOHS HOME</p>
+        <p class="p-fv-pc__catchcopy mt-36 mb-24 tab:text-xl">お腹に赤ちゃんがいる方へ</p>
+        <h1 class="p-fv-pc__title tab:text-2xl">ママのための<br>出張整体</h1>
       </div>
-      <swiper class="swiper" :options="swiperOption">
-        <swiper-slide v-for="(image, index) in images" :key="index">
-          <img class="w-full h-full" :src="image.link" alt="">
-        </swiper-slide>
-
-        <!-- <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div> -->
-      </swiper>
-
+      <client-only>
+        <swiper class="swiper" :options="swiperOption">
+          <swiper-slide v-for="(image, index) in images" :key="index">
+            <img class="w-full h-full" :src="image.link" alt="">
+          </swiper-slide>
+        </swiper>
+      </client-only>
     </div>  
   </div>
 </template>
@@ -51,7 +48,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .p-fv {
+  .p-fv-pc {
     height: 82vh;
     &::after {
         content: '';

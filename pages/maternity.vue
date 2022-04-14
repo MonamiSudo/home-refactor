@@ -1,7 +1,9 @@
 <!-- マタニティ専用のwebページ -->
 <template>
   <main>
-    <section v-if=" flag > 800 ">
+    <!-- <maternityFirstViewPC v-if=" flag > 820 " />
+    <maternityFirstViewSP v-else />  -->
+    <section v-if=" flag > 820 ">
       <maternityFirstViewPC />
     </section>
     <section v-else>
