@@ -7,6 +7,7 @@ const mierucaEmbedCode = `window.__fid = window.__fid || [];__fid.push([45432812
 const googleAnalyticsCode = `window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-WHE7CJ1ZEF'); gtag('config', 'UA-185752540-1');`
 
 export default {
+  mode: 'spa', // @nuxtjs/deviceを使用するためにspa。デフォルトはuniversal
   router: {
     base: '/lp/home/' // サブディレクトリのパス → デプロイ時にコメント外す
   },
@@ -85,6 +86,7 @@ export default {
     // https:go.nuxtjs.dev/tailwindcss
     '@nuxtjs/google-analytics', // Google アナリティクスパッケージ
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/device', // PC, tablet, mobileのデバイスを判定する
   ],
   googleAnalytics: {
     id: [ //サイトのアナリティクスID
@@ -99,8 +101,8 @@ export default {
       debug: true // trueだとlocalでも発火する。
     } ],
     [
-      'nuxt-lazy-load', {
-        directiveOnly: true,
+      'nuxt-lazy-load', { // 画像遅延読み込み
+        directiveOnly: true, // v-lazy-loadを指定した画像に遅延読み込みをする
       }
     ]
   ],

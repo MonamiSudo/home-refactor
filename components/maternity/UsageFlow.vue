@@ -5,7 +5,7 @@
       <ul class="mt-12 flex flex-col gap-y-8">
         <li class="flex justify-around sp:flex-wrap" v-for="item in items" :key="item.id">
           <figure class="w-5/12 sp:w-full">
-            <img class="rounded-lg" :src="item.image" :alt="item.alt">
+            <img class="rounded-lg" :src="item.image" :alt="item.alt" v-lazy-load>
           </figure>
           <div class="bg-white rounded-lg p-8 w-1/2 sp:w-full sp:py-7 sp:px-4">
             <p class="text-xl font-bold">ステップ {{ item.id }}</p>

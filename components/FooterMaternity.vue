@@ -1,6 +1,6 @@
 <!-- マタニティの半額バナーを表示させるにはこのフッターコンポーネント -->
 <template>
-  <footer>
+  <footer class="mb-20">
     <div class="bg-blue-dark py-10">
       <figure>
         <img class="mx-auto" src="@/assets/image/footer/logo-white.svg" alt="クオースのロゴ">

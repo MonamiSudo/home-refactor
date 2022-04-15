@@ -1,3 +1,4 @@
+<!-- コンポーネント内の画像に無限スクロールを実装したver -->
 <template>
   <section class="pt-5 pb-14">
     <div class="max-w-6xl mx-auto tab:w-11/12">
@@ -11,9 +12,19 @@
         </li>
       </ul>
     </div>
-    <div class="flex">
-      <ul class="flex mt-14 overflow-hidden sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">
-        <li class="w-80 mx-4 sp:inline-block sp:w-4/5 sp:mr-6 sp:align-top" v-for="image in images" :key="image.src">
+    <div class="flex overflow-hidden">
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
+          <img class="w-full h-full" :src="image.src" alt="" v-lazy-load>
+        </li>
+      </ul>
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
+          <img class="w-full h-full" :src="image.src" alt="" v-lazy-load>
+        </li>
+      </ul>
+      <ul class="slideshow flex mt-14">
+        <li class="w-80 mx-4" v-for="image in images" :key="image.src">
           <img class="w-full h-full" :src="image.src" alt="" v-lazy-load>
         </li>
       </ul>

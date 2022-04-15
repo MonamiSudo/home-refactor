@@ -5,7 +5,7 @@
         <h2 class="text-2xl font-bold text-center">百貨店で整体サロンを運営する会社のサービスです</h2>
         <div class="flex justify-between mt-10 tab:flex-wrap">
           <figure class="w-2/5 tab:w-full">
-            <img src="@/assets/image/store-achivement/department-logo.png" alt="出店している百貨店のロゴ">
+            <img src="@/assets/image/store-achivement/department-logo.png" alt="出店している百貨店のロゴ" v-lazy-load>
           </figure>
           <div class="w-1/2 tab:w-full tab:mt-7">
             <p>マルイシティ横浜、東急プラザ渋谷、そごう横浜、西武池袋など。関東の百貨店や商業施設で、整体サロンを運営する会社のサービスです。</p>

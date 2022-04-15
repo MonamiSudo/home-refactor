@@ -6,7 +6,7 @@
       <ul class="flex mt-14 justify-between flex-wrap gap-y-8 sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">
         <li class="w-11/50 tab:w-12/25 sp:inline-block sp:w-4/5 sp:mr-6 sp:align-top" v-for="staff in staffs" :key="staff.id">
           <figure class="bg-blue-thin h-80 rounded-lg">
-            <img class="h-full mx-auto " :src="staff.image" alt="">
+            <img class="h-full mx-auto " :src="staff.image" alt="" v-lazy-load>
           </figure>
           <p class="mt-6 leading-relaxed tracking-wider sp:whitespace-pre-wrap" v-html="staff.message"></p>
         </li>

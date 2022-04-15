@@ -3,11 +3,11 @@
     <div class="bg-blue-dark py-14">
       <picture>
         <source srcset="@/assets/image/maternity/cta/course-sp.png" :media="picture.sp">
-        <img class="mx-auto" src="@/assets/image/maternity/cta/course-pc.png" alt="">
+        <img class="mx-auto" src="@/assets/image/maternity/cta/course-pc.png" alt="" v-lazy-load>
       </picture>
-      <div class="text-center mt-14">
+      <div class="text-center mt-14 sp:mt-6">
         <a href="https://lin.ee/zTsXoxq" @click="homeAddLine()" class="line-maternity inline-block" target="_blank">
-          <img class="mx-auto hover:cursor-pointer" src="@/assets/image/maternity/cta/line-add.png" alt="">
+          <img class="mx-auto hover:cursor-pointer" src="@/assets/image/maternity/cta/line-add.png" alt="" v-lazy-load>
         </a>
       </div>
     </div>

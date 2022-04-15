@@ -9,7 +9,7 @@
           <p class="mt-5">妊娠中は赤ちゃんのことでいっぱいで自分のことは後回しになりがち・・<br>気づかない間に自分の体には疲労が蓄積されているはずです。<br><br>・こってしまった体をほぐしたい<br>・なんとなく体がだるい<br>・整体を受けに行きたいけど、お腹の赤ちゃんが心配で外出が怖い<br><br>そんなマタニティの方が毎日健康で過ごせるように、出張整体クオースが寄り添ってサポートさせていただきます！</p>
         </div>
         <figure class="w-5/12 sp:w-full sp:mt-5">
-          <img src="@/assets/image/maternity/userAnswer/maternity-diagnose.png" alt="">
+          <img src="@/assets/image/maternity/userAnswer/maternity-diagnose.png" alt="" v-lazy-load>
         </figure>
       </div>
     </div>

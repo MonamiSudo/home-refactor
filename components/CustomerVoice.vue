@@ -5,7 +5,7 @@
       <ul class="flex justify-between flex-wrap gap-y-6 mt-12 sp:block sp:overflow-x-auto sp:whitespace-nowrap sp:mt-10">
         <li class="bg-white p-6 rounded-lg w-12/25 sp:inline-block sp:w-43/50 sp:mr-4 sp:align-top" v-for="item in items" :key="item.id">
           <figure class="h-72">
-            <img class="rounded-lg h-full w-full object-cover" :src="item.image" alt="">
+            <img class="rounded-lg h-full w-full object-cover" :src="item.image" alt="" v-lazy-load>
           </figure>
           <h3 class="text-lg text-blue-dark mt-6" v-html="item.heading"></h3>
           <p class="leading-relaxed tracking-wider mt-1 sp:whitespace-pre-wrap" v-html="item.text"></p>
