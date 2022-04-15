@@ -97,7 +97,12 @@ export default {
     [ '@nuxtjs/google-gtag', {
       id: 'G-WHE7CJ1ZEF',
       debug: true // trueだとlocalでも発火する。
-    } ]
+    } ],
+    [
+      'nuxt-lazy-load', {
+        directiveOnly: true,
+      }
+    ]
   ],
   
   // Build Configuration: https://go.nuxtjs.dev/config-build
