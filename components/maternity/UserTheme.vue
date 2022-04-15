@@ -1,8 +1,8 @@
 <template>
   <section class="p-maternity-problem py-14 mb-20 relative">
-    <div class="text-center max-w-5xl mx-auto w-11/12 tab:w-9/12">
+    <div class="text-center max-w-5xl mx-auto w-11/12 tab:w-24/25">
       <h1 class="p-user-theme inline-block text-center text-2xl font-bold relative sp:text-xl">こんな<span class="text-3xl text-white">お悩み</span>ありませんか？</h1>
-      <ul class="flex justify-between flex-wrap gap-y-6 mt-10">
+      <ul class="flex justify-between flex-wrap gap-y-6 mt-10 sp:justify-center">
         <li class="p-user-theme__item w-72 h-72 block bg-cover flex content-center items-center" v-for="item in items" :key="item.text">
           <p class="w-full  text-center px-6 tracking-widest leading-loose sp:text-sp" v-html="item.text"></p>
         </li>

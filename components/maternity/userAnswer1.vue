@@ -44,7 +44,7 @@ export default {
       images: [
         { src: require('@/assets/image/maternity/userAnswer/treatment1.png') },
         { src: require('@/assets/image/maternity/userAnswer/treatment2.png') },
-        { src: require('@/assets/image/maternity/userAnswer/treatment3.JPG') },
+        { src: require('@/assets/image/maternity/userAnswer/treatment3.jpeg') },
         { src: require('@/assets/image/maternity/userAnswer/treatment4.png') },
       ]
     }

@@ -28,7 +28,7 @@ export default {
         // アプリテキスト：iPhoneをお使いの方は<a class="text-blue-dark underline" href="https://apps.apple.com/jp/app/qohs-home/id1483571890">App Store</a>から、iPhone以外のスマホをお使いの方は<a class="text-blue-dark underline" href="https://play.google.com/store/apps/details?id=me.qohs.qohsapp">Google Play</a>から、アプリをダウンロードしてください。
         { id: 2, image: require('@/assets/image/usage-flow/flow2.jpg'), alt: '予約を受けセラピストが出張している', heading: 'セラピストがご自宅へ伺います', text: 'セラピストがご予約いただいた時間の約5分前にご自宅へお伺いします。「インターホンを鳴らす前に連絡が欲しい」などのご要望がございましたらお申し付け下さい。'},
         { id: 3, image: require('@/assets/image/usage-flow/flow3.jpg'), alt: '施術をするための準備をしている', heading: '施術の準備をします', text: '施術者がお客様のご自宅へお伺いし、施術の準備をいたします。セラピストがヨガマットをお持ちいたしますので、お客様にご用意いただくのは、1メートル×2メートルのスペースのみです。<br>※ ご自宅のベッドで施術をすることもできます'},
-        { id: 4, image: require('@/assets/image/maternity/usageFlow/flow4.JPG'), alt: 'お客様の家でセラピストが施術をしている', heading: '施術をお受けいただきます', text: '横向き・仰向けでなるべくお腹に負担がかからないように、施術を行います。<br>体勢やお腹のお辛さ等、相談しながら施術を進めていきます。はじめにカウンセリングを行い、お客様の悩みに寄り添った施術をご提供し、施術後には体の専門家から見た体の状態をお伝えいたします。'},
+        { id: 4, image: require('@/assets/image/maternity/usageFlow/flow4.jpeg'), alt: 'お客様の家でセラピストが施術をしている', heading: '施術をお受けいただきます', text: '横向き・仰向けでなるべくお腹に負担がかからないように、施術を行います。<br>体勢やお腹のお辛さ等、相談しながら施術を進めていきます。はじめにカウンセリングを行い、お客様の悩みに寄り添った施術をご提供し、施術後には体の専門家から見た体の状態をお伝えいたします。'},
       ]
     }
   },
