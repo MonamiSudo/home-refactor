@@ -10,6 +10,16 @@
           <img class="mx-auto hover:cursor-pointer" src="@/assets/image/maternity/cta/line-add.png" alt="" v-lazy-load>
         </a>
       </div>
+      <div class="max-w-4xl mx-auto tab:w-11/12">
+        <p class="text-white tracking-wider leading-loose">
+          ※下記に該当する方は、施術を受けられません。
+          <br>・施術対象期間外（安定期【妊娠16週目から妊娠27週目】以外）の方
+          <br>・妊娠経過が不安定な方
+          <br>・切迫早産/流産の診断を受けた方
+          <br>・お医者様より何か特別な診断を受けた方
+          <br>・お医者様より安静を勧められた方
+        </p>
+      </div>
     </div>
     <div>
       <div class="p-cta__bg py-4 px-14 text-white sp:px-4">

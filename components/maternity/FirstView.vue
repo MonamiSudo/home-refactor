@@ -2,11 +2,11 @@
 <template>
   <section class="p-fv">
     <!-- Desktop -->
-    <div v-if="$device.isDesktop" class="p-fv-pc text-blue-dark pt-14 pr-12 pl-24 mb-24">
+    <div v-if="$device.isDesktop" class="p-fv-pc text-blue-dark pt-14 pl-24 mb-8">
       <div class="p-fv-pc__50off h-full flex justify-between relative">
         <div class="h-full absolute z-10">
           <p class="p-fv-pc__brand-name tab:text-lg">QOHS Home</p>
-          <p class="p-fv-pc__catchcopy mt-36 mb-24 tab:text-xl">お腹に赤ちゃんがいる方へ</p>
+          <p class="p-fv-pc__catchcopy mt-32 mb-20 tab:text-xl">お腹に赤ちゃんがいる方へ。</p>
           <h1 class="p-fv-pc__title tab:text-2xl">ママのための<br>出張整体</h1>
         </div>
         <client-only>
@@ -92,10 +92,10 @@ export default {
         display: block;
         background-image: url('@/assets/image/maternity/first-view-pc/off50-pc.png');
         background-size: cover;
-        height: 19.4vw;
-        width: 19.4vw;
+        height: 17.9vw;
+        width: 17.9vw;
         position: absolute;
-        bottom: -52px;
+        bottom: 18px;
         right: 48px;
         z-index: 10;
       }
@@ -120,7 +120,7 @@ export default {
       // font-size: 106px; // px表記
       font-size: 7.36111vw; // vw表記
       letter-spacing: .15em;
-      line-break: 1.32;
+      line-height: 1.32;
       text-shadow: 2px 4px 8px #fff;
     }
   }
@@ -146,8 +146,8 @@ export default {
   // swiper plugin PC Settings
   // =================================================================================
   .swiperPC {
-    height: 48.2vw;
-    width: 54%;
+    height: 43.6vw; // width基準 縦横比率揃える
+    width: 55%;
     position: absolute; // absoluteでテキスト（キャッチコピー）と被せる
     right: 50px;
     & * {
