@@ -1,15 +1,19 @@
 <!-- 一般的な半額バナーを表示させるにはこのフッターコンポーネント -->
 <template>
   <footer class="sp:mb-20">
-    <div class="bg-blue-dark py-10">
-      <figure>
+    <div class="bg-blue-dark py-10 sp:py-14">
+      <figure class="sp:mx-auto sp:w-40">
         <img class="mx-auto" src="@/assets/image/footer/logo-white.svg" alt="クオースのロゴ">
       </figure>
     </div>
     <small class="inline-block bg-white w-full py-1 text-center">©︎ 2021 SMILE CREATE GROUP Co., Ltd</small>
     <a href="https://lin.ee/zTsXoxq" class="banner-half hidden sp:block">
+      <!-- アプリ -->
       <!-- <img src="@/assets/image/footer/limited-banner2.png" alt="" @click="scrollToCta()"> -->
-      <img src="@/assets/image/footer/line-banner.png" alt="" @click="homeAddLine()">
+      <!-- LINEバナー -->
+      <!-- <img src="@/assets/image/footer/line-banner.png" alt="" @click="homeAddLine()"> -->
+      <!-- LINEバナー 背景黄色 -->
+      <img src="@/assets/image/footer/limited-banner-yellow.png" alt="" @click="homeAddLine()">
     </a>
   </footer>
 </template>

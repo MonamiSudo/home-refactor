@@ -1,15 +1,19 @@
 <!-- マタニティの半額バナーを表示させるにはこのフッターコンポーネント -->
 <template>
   <footer class="sp:mb-20">
-    <div class="bg-blue-dark py-10">
-      <figure>
+    <div class="bg-blue-dark py-10 sp:py-14">
+      <figure class="sp:w-40 sp:mx-auto">
         <img class="mx-auto" src="@/assets/image/footer/logo-white.svg" alt="クオースのロゴ">
       </figure>
     </div>
     <small class="inline-block bg-white w-full py-1 text-center">©︎ 2021 SMILE CREATE GROUP Co., Ltd</small>
     <a href="https://lin.ee/zTsXoxq" class="banner-half hidden sp:block">
+      <!-- アプリ -->
       <!-- <img src="@/assets/image/footer/limited-banner2.png" alt="" @click="scrollToCta()"> -->
-      <img src="@/assets/image/footer/banner-maternity.png" alt="" @click="homeAddLine()">
+      <!-- LINE -->
+      <!-- <img src="@/assets/image/footer/banner-maternity.png" alt="" @click="homeAddLine()"> -->
+      <!-- LINE 背景黄色 -->
+      <img src="@/assets/image/footer/banner-maternity-yellow.png" alt="" @click="homeAddLine()">
     </a>
   </footer>
 </template>

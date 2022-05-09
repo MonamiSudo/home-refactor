@@ -17,9 +17,9 @@ export default {
   data() {
     return {
       items: [
-        { text: '妊娠してから<span class="font-bold text-red-dark">むくみ</span>がすごい。<br><br>手足や首、背中に<span class="font-bold text-red-dark">リンパが滞っている</span>感じがしてほぐしたい・・' },
-        { text: '<span class="font-bold text-red-dark">お尻やお尻の奥</span>に痛みを感じる。<br><br>痛いけど、どう直していいか分からない。' },
-        { text: 'お腹が大きくなるにつれて、<span class="font-bold text-red-dark">腰の痛み</span>が増してきた。<br><br>立ち上がる時など腰が痛い・・' }
+        { text: '妊娠してから<br><span class="font-bold text-red-dark">むくみ</span>がすごい。<br><br>手足や首、背中に<span class="font-bold text-red-dark">リンパが滞っている</span>感じがしてほぐしたい・・' },
+        { text: '<span class="font-bold text-red-dark">お尻やお尻の奥</span><br>に痛みを感じる。<br><br>痛いけど、<br>どう直していいか分からない。' },
+        { text: 'お腹が大きくなるにつれて、<span class="font-bold text-red-dark">腰の痛み</span>が増してきた。<br><br>立ち上がる時など<br>腰が痛い・・' }
       ]
     }
   }

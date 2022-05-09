@@ -40,7 +40,7 @@ export default {
         { id: 1, text: '安定期【妊娠16週目(5ヶ月)から妊娠27週目(9ヶ月)】の方に受けていただけます。' },
         { id: 2, text: 'ママセラピストによるカウンセリング。' },
         { id: 3, text: 'むくみ解消、施術後から体軽やか。' },
-        { id: 4, text: '立ち上がる時など、腰痛・お尻の痛みを軽減。' },
+        { id: 4, text: '立ち上がる時など、腰痛・お尻の痛みを軽減できるようにアプローチ。' },
       ],
       images: [
         { src: require('@/assets/image/maternity/userAnswer/treatment1.png') },
