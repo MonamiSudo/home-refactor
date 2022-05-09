@@ -13,7 +13,7 @@
       <!-- LINEバナー -->
       <!-- <img src="@/assets/image/footer/line-banner.png" alt="" @click="homeAddLine()"> -->
       <!-- LINEバナー 背景黄色 -->
-      <img src="@/assets/image/footer/limited-banner-yellow.png" alt="" @click="homeAddLine()">
+      <img src="@/assets/image/footer/line-banner-yellow.png" alt="" @click="homeAddLine()">
     </a>
   </footer>
 </template>
