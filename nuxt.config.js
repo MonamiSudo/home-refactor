@@ -5,6 +5,8 @@ const metaPixelNoScriptCode = `<img height="1" width="1" style="display:none"src
 const mierucaEmbedCode = `window.__fid = window.__fid || [];__fid.push([454328126]);(function() {function mieruca(){if(typeof window.__fjsld != "undefined") return; window.__fjsld = 1; var fjs = document.createElement('script'); fjs.type = 'text/javascript'; fjs.async = true; fjs.id = "fjssync"; var timestamp = new Date;fjs.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://hm.mieru-ca.com/service/js/mieruca-hm.js?v='+ timestamp.getTime(); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(fjs, x); };setTimeout(mieruca, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent("onload", mieruca) : window.addEventListener("load", mieruca, false)) : mieruca();})();`
 // Googleアナリティクスのコード
 const googleAnalyticsCode = `window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-WHE7CJ1ZEF'); gtag('config', 'UA-185752540-1');`
+// Googleオプティマイズのコード
+const googleOptimize = `https://www.googleoptimize.com/optimize.js?id=OPT-KVFFDTQ`
 
 export default {
   mode: 'spa', // @nuxtjs/deviceを使用するためにspa。デフォルトはuniversal
@@ -42,9 +44,15 @@ export default {
         hid: 'mierucajs',
         innerHTML: mierucaEmbedCode
       },
+      // Googleアナリティクス
       {
         hid: 'GA',
         innerHTML: googleAnalyticsCode,
+      },
+      // Googleオプティマイズ
+      {
+        hid: 'GO',
+        src: googleOptimize,
       }
     ],
     noscript: [
@@ -58,7 +66,8 @@ export default {
       'metaPixelCodeHead': ['innerHTML'],
       'metaPixelCodeBody': ['innerHTML'],
       'mierucajs': ['innerHTML'],
-      'GA': ['innerHTML']
+      'GA': ['innerHTML'],
+      // 'GO': ['innerHTML']
     },
     // ====================================================================
     // scriptタグ設定終わり
