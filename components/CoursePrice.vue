@@ -2,7 +2,7 @@
   <section class="py-20 px-14 sp:py-10 sp:px-1">
     <div class="mx-auto max-w-6xl tab:w-11/12">
       <h2 class="text-3xl font-bold text-center">料金プラン</h2>
-      <p class="text-center mt-1"><span class="text-base text-red-400 font-bold">ご好評につき、2022年5月31日まで、初回予約で全コース半額キャンペーン</span>を行なっています。</p>
+      <p class="text-center mt-1"><span class="text-base text-red-400 font-bold">ご好評につき、2022年6月30日まで、初回予約で全コース半額キャンペーン</span>を行なっています。</p>
       <ul>
         <li class="mt-14" v-for="course in courses" :key="course.name">
           <h3 class="text-center text-2xl mb-2 sp:text-xl">{{ course.name }}</h3>
