@@ -1,17 +1,16 @@
 <template>
   <main>
     <HomeFirstView/> 
-    <HomeCourseInfo/>
     <HomeCtaLine/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
+    <HomeCtaLine/>
     <StaffList/>
     <StoreAchivement/>
     <Media/>
     <HomeCtaLine/>
     <BeforeAfter/>
-    <CoronaMeasure/>
     <UsageFlow/>
     <HomeCtaLine/>
     <MessageToMother/>

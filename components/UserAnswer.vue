@@ -20,7 +20,7 @@ export default {
       items: [
         {id: 1, heading: '子供がいても安心', text: '自宅の好きな場所で施術を受けられるので、子供のことを気にせずリラックスできます。', image: require('@/assets/image/user-answer/child-safe.jpg'), alt: '子供がいる部屋で施術をしている'},
         {id: 2, heading: 'セラピストは全員女性', text: '女性の体のスペシャリストが、あなたのお悩みに寄り添った施術をいたします。', image: require('@/assets/image/user-answer/staff-woman.jpg'), alt: '笑顔のパートナー'},
-        {id: 3, heading: 'アプリで簡単予約', text: '予約をしたらおうちで受けるだけ。忙しい方でも、ちょっとした空き時間にご利用いただけます。', image: require('@/assets/image/user-answer/reserve.jpg'), alt: '女性がアプリから予約をしている'}
+        {id: 3, heading: 'LINEで簡単予約', text: '予約をしたらおうちで受けるだけ。忙しい方でも、ちょっとした空き時間にご利用いただけます。', image: require('@/assets/image/user-answer/reserve.jpg'), alt: '女性がアプリから予約をしている'}
       ]
     }
   }
