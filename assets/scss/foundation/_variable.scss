@@ -9,3 +9,11 @@ $breakpoint: (
   xl: 'screen and (min-width: 1200px)',
   xxl: 'screen and (min-width: 1400px)'
 );
+
+$breakpoint-tablet: 955px;
+$breakpoint-mobile: 665px;
+
+// ===================================================
+// $color
+// ===================================================
+$black: #333;

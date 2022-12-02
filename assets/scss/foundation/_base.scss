@@ -1,6 +1,10 @@
 body {
-  color: #333;
+  color: $black;
   font-family: "游ゴシック体", YuGothic, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+p {
+  font-size: 15px;
 }
 
 // ===================================================================
@@ -12,4 +16,10 @@ body {
 // ===================================================================
 // lg
 // ===================================================================
-// @include mq(lg) {}
+@include mq(lg) {
+
+  p {
+    font-size: 16px;
+  }
+
+}

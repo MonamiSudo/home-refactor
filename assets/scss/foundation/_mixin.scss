@@ -1,5 +1,21 @@
+@import './variable';
+
 @mixin mq($bp) {
   @media #{map-get($breakpoint, $bp)} {
+    @content;
+  }
+}
+
+// 画面幅955以下になるとこの設定が適用される
+@mixin tablet {
+  @media only screen and (max-width: ($breakpoint-tablet)) {
+    @content;
+  }
+}
+
+// 画面幅665以下になるとこの設定が適用される
+@mixin mobile {
+  @media only screen and (max-width: ($breakpoint-mobile)) {
     @content;
   }
 }

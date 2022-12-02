@@ -1,21 +1,21 @@
 <template>
   <main>
     <HomeFirstView/> 
-    <HomeCtaLine/>
+    <HomeCtaLineNew/>
     <UserTheme/>
     <UserAnswer/>
     <CustomerVoice/>
-    <HomeCtaLine/>
+    <HomeCtaLineNew/>
     <StaffList/>
     <StoreAchivement/>
     <Media/>
-    <HomeCtaLine/>
+    <HomeCtaLineNew/>
     <BeforeAfter/>
     <UsageFlow/>
-    <HomeCtaLine/>
+    <HomeCtaLineNew/>
     <MessageToMother/>
     <CoursePrice/>
-    <HomeCtaLine/>
+    <HomeCtaLineNew/>
   </main>
 </template>
 
