@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-gray-100 py-20 px-14 sp:py-10 sp:px-1">
+  <section class="py-20 px-14 sp:py-10 sp:px-1">
     <div class="max-w-5xl mx-auto tab:w-11/12">
       <div class="bg-white py-10 px-20 sp:py-8 sp:px-4">
         <h2 class="text-2xl font-bold text-center">百貨店で整体サロンを運営する会社のサービスです</h2>

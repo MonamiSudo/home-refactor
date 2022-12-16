@@ -10,22 +10,41 @@
           <img class="mx-auto hover:cursor-pointer" src="@/assets/image/maternity/cta/line-add.png" alt="" v-lazy-load>
         </a>
       </div>
-      <div class="max-w-4xl mx-auto tab:w-11/12">
-        <p class="text-white tracking-wider leading-loose">
-          ※下記に該当する方は、施術を受けられません。
+      <!-- <div class="max-w-4xl mx-auto tab:w-11/12">
+        <p class="font-bold tracking-wider leading-loose">
+          ※ 下記に該当する方は、施術を受けられません。
           <br>・施術対象期間外（安定期【妊娠16週目から妊娠27週目】以外）の方
           <br>・妊娠経過が不安定な方
           <br>・切迫早産/流産の診断を受けた方
           <br>・お医者様より何か特別な診断を受けた方
           <br>・お医者様より安静を勧められた方
         </p>
-      </div>
+      </div> -->
     </div>
-    <div>
-      <div class="p-cta__bg py-4 px-14 text-white sp:px-4">
-        <p class="p-cta__caution-text">※ 電話でもご予約いただけます　<br class="sp"><a class="text-xl border-b-2" href="tel:090-7999-5882">090-7999-5882</a>（担当：赤木）</p>
-        <p class="p-cta__caution-text py-2">※ 出張対応地域<br>東京都全域、神奈川（川崎市、横浜市）、埼玉（所沢・浦和・越谷より東京に近い場所）、千葉（松戸・津田沼より東京に近い場所）今後、随時拡大予定です。</p>
-      </div>
+    <!-- <div class="p-cta__bg py-10 px-14 sp:px-4"> -->
+    <div class="bg-gray-100 py-10 px-14 sp:px-4">
+      <ul class="max-w-xl mx-auto">
+        <li class="text-center font-bold text-2xl sp:text-xl">ご確認事項</li>
+        <li class="mt-6">
+          <p class="font-bold">※ 下記に該当する方は、安全面の考慮から施術をお断りしています。</p>
+          <ul class="mt-1 leading-relaxed">
+            <li class="py-1 pl-5 sp:pl-0">① 施術対象期間外（安定期【妊娠16週目から妊娠27週目】以外）の方</li>
+            <li class="py-1 pl-5 sp:pl-0">② 妊娠経過が不安定な方</li>
+            <li class="py-1 pl-5 sp:pl-0">③ 切迫早産/流産の診断を受けた方</li>
+            <li class="py-1 pl-5 sp:pl-0">④ お医者様より何か特別な診断を受けた方</li>
+            <li class="py-1 pl-5 sp:pl-0">⑤ お医者様より安静を勧められた方</li>
+          </ul>
+        </li>
+        <li class="mt-6">
+          <p class="p-cta__caution-text font-bold">※ 電話でもご予約いただけます</p>
+          <div class="mt-1 pl-5 sp:pl-0">
+            <a class="underline" href="tel:090-7999-5882">090-7999-5882</a>（担当：赤木）
+          </div>
+        </li>
+        <li class="mt-6">
+          <p class="p-cta__caution-text font-bold">※ 出張可能エリアは東京都23区になります</p>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
