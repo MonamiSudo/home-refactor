@@ -3,42 +3,17 @@ export const courseList = {
     return {
       courses: [
         {
-          name: 'ぐっすり快眠整体コース',
+          category: '整体＋部分オイル',
+          name: '整体+オイルセットコース',
           description: '',
           price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
-          }  
-        },
-        {
-          name: '美容整体コース',
-          description: '',
-          price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
+            time60: 9900,
+            time90: 14300,
+            time120: 18700
           }
         },
         {
-          name: 'リモートワーク疲れ整体コース',
-          description: '',
-          price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
-          }
-        },
-        {
-          name: '産後骨盤矯正コース',
-          description: '',
-          price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
-          }
-        },
-        {
+          category: '全身オイル',
           name: '整体師の行う、全身オイルコース',
           description: '',
           price: {
@@ -46,7 +21,44 @@ export const courseList = {
             time90: 16940,
             time120: 22220
           }
-        }
+        },
+        {
+          category: '全身整体',
+          name: 'ぐっすり快眠整体コース、美容整体コース、リモートワーク疲れ整体コース、産後骨盤矯正コース',
+          description: '',
+          price: {
+            time60: 9020,
+            time90: 12980,
+            time120: 16940
+          }  
+        },
+        // {
+        //   name: '美容整体コース',
+        //   description: '',
+        //   price: {
+        //     time60: 9020,
+        //     time90: 12980,
+        //     time120: 16940
+        //   }
+        // },
+        // {
+        //   name: 'リモートワーク疲れ整体コース',
+        //   description: '',
+        //   price: {
+        //     time60: 9020,
+        //     time90: 12980,
+        //     time120: 16940
+        //   }
+        // },
+        // {
+        //   name: '産後骨盤矯正コース',
+        //   description: '',
+        //   price: {
+        //     time60: 9020,
+        //     time90: 12980,
+        //     time120: 16940
+        //   }
+        // },
       ]
     }
   },
