@@ -4,7 +4,7 @@ export const courseList = {
       courses: [
         {
           category: '整体＋部分オイル',
-          name: '整体+オイルセットコース',
+          name: '産後骨盤矯正コース/美容整体コース/快眠整体コース＋首肩or足の部分オイル',
           description: '',
           price: {
             time60: 9900,
@@ -24,7 +24,7 @@ export const courseList = {
         },
         {
           category: '全身整体',
-          name: 'ぐっすり快眠整体コース、美容整体コース、リモートワーク疲れ整体コース、産後骨盤矯正コース',
+          name: '産後骨盤矯正コース/マタニティーコース/美容整体コース/快眠整体コース',
           description: '',
           price: {
             time60: 9020,
