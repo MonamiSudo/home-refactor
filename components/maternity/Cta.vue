@@ -42,12 +42,6 @@
           </ul>
         </li>
         <li class="mt-6">
-          <p class="p-cta__caution-text font-bold">※ 電話でもご予約いただけます</p>
-          <div class="mt-1 pl-5 sp:pl-0">
-            <a class="underline" href="tel:090-7999-5882">090-7999-5882</a>（担当：赤木）
-          </div>
-        </li>
-        <li class="mt-6">
           <p class="p-cta__caution-text font-bold">※ 出張可能エリアは東京都23区になります</p>
         </li>
       </ul>
