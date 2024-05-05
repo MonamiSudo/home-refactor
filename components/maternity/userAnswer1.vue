@@ -1,7 +1,7 @@
 <template>
   <section class="pt-5 pb-14">
     <div class="max-w-6xl mx-auto tab:w-11/12">
-      <h1 class="mb-10 text-3xl font-bold text-center sp:text-left sp:text-xl sp:mb-4">おうちで整体！お体の悩みを解決！</h1>
+      <h1 class="mb-10 text-3xl font-bold text-center sp:text-left sp:text-xl sp:mb-4">そのお悩みパウワウホームで解決！</h1>
       <ul class="mx-auto max-w-xl flex flex-col gap-y-3">
         <li class="flex items-center" v-for="item in items" :key="item.id">
           <figure class="w-9 h-9">
@@ -27,7 +27,7 @@ export default {
     return {
       items: [
         { id: 1, text: '安定期【妊娠16週目(5ヶ月)から妊娠27週目(9ヶ月)】の方に受けていただけます。' },
-        { id: 2, text: 'ママセラピストによるカウンセリング。' },
+        { id: 2, text: '整体師は全員女性。' },
         { id: 3, text: 'むくみ解消、施術後から体軽やか。' },
         { id: 4, text: '立ち上がる時など、腰痛・お尻の痛みを軽減できるようにアプローチ。' },
       ],

@@ -32,7 +32,8 @@ module.exports = {
         },
         red: {
           dark: '#CA495A',
-          thin: '#F79EAA'
+          thin: '#F79EAA',
+          
         },
         green: {
           line: '#8FC40A'

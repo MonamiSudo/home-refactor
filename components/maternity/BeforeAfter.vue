@@ -6,7 +6,7 @@
           <h2 class="text-3xl font-bold text-center text-white">ビフォー・アフター</h2>
         </div>
         <div class="bg-white px-8 py-8 sp:py-6 sp:px-3">
-          <p class="text-center leading-loose sp:text-left sp:text-sp-base">フェイスラインがスッキリしたり、むくんでいた箇所がほぐされて血流が良くなります。<br>クオースの施術でのでフェイスラインのビフォーアフターです。</p>
+          <p class="text-center leading-loose sp:text-left sp:text-sp-base">フェイスラインがスッキリしたり、むくんでいた箇所がほぐされて血流が良くなります。<br>パウワウホームの施術でのでフェイスラインのビフォーアフターです。</p>
           <figure class="mt-8">
             <img src="@/assets/image/maternity/before-after/face-ba.jpg" alt="施術後のフェイスライン" v-lazy-load>
           </figure>

@@ -1,7 +1,7 @@
 <template>
-  <section class="p-maternity-problem py-14 mb-20 relative">
-    <div class="text-center max-w-5xl mx-auto w-11/12 tab:w-24/25">
-      <h1 class="p-user-theme inline-block text-center text-2xl font-bold relative sp:text-xl">こんな<span class="text-3xl text-white">お悩み</span>ありませんか？</h1>
+  <section class="p-maternity-problem bg-red-100 py-14 mb-20 relative">
+    <div class="text-center max-w-7xl mx-auto w-11/12 tab:w-24/25">
+      <h1 class="p-user-theme inline-block text-center text-2xl font-bold relative sp:text-xl">こんな<span class="text-3xl">お悩み</span>ありませんか？</h1>
       <ul class="flex justify-between flex-wrap gap-y-6 mt-10 sp:justify-center">
         <li class="p-user-theme__item w-72 h-72 block bg-cover flex content-center items-center" v-for="item in items" :key="item.text">
           <p class="w-full  text-center px-6 tracking-widest leading-loose sp:text-sp" v-html="item.text"></p>
@@ -19,7 +19,8 @@ export default {
       items: [
         { text: '妊娠してから<br><span class="font-bold text-red-dark">むくみ</span>がすごい。<br><br>手足や首、背中に<span class="font-bold text-red-dark">リンパが滞っている</span>感じがしてほぐしたい・・' },
         { text: '<span class="font-bold text-red-dark">お尻やお尻の奥</span><br>に痛みを感じる。<br><br>痛いけど、<br>どう直していいか分からない。' },
-        { text: 'お腹が大きくなるにつれて、<span class="font-bold text-red-dark">腰の痛み</span>が増してきた。<br><br>立ち上がる時など<br>腰が痛い・・' }
+        { text: 'お腹が大きくなるにつれて、<span class="font-bold text-red-dark">腰の痛み</span>が増してきた。<br><br>立ち上がる時など<br>腰が痛い・・' },
+        { text: '出張整体に興味はあるけど、<span class="font-bold text-red-dark">男性の整体師</span>が来たら不安' },
       ]
     }
   }
@@ -28,7 +29,6 @@ export default {
 
 <style scoped lang="scss">
   .p-maternity-problem {
-    background-color: rgba(105, 173, 180, 0.6);
     &::after { // 下に視線を誘導する矢印
       background-image: url(../../assets/image/maternity/userTheme/arrow-down.png);
       background-repeat: no-repeat;

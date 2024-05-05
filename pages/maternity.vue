@@ -12,7 +12,7 @@
     <StoreAchivement />
     <maternityBeforeAfter />
     <StaffList />
-    <CoronaMeasure />
+    <Media/>
     <maternityUsageFlow />
     <maternityCoursePrice />
     <maternityCta />

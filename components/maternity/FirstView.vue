@@ -5,9 +5,9 @@
     <div v-if="$device.isDesktop" class="p-fv-pc text-blue-dark pt-14 pl-24 mb-8">
       <div class="p-fv-pc__50off h-full flex justify-between relative">
         <div class="h-full absolute z-10">
-          <p class="p-fv-pc__brand-name tab:text-lg">QOHS Home</p>
-          <p class="p-fv-pc__catchcopy mt-32 mb-20 tab:text-xl">お腹に赤ちゃんがいる方へ。</p>
-          <h1 class="p-fv-pc__title tab:text-2xl">ママのための<br>出張整体</h1>
+          <p class="p-fv-pc__brand-name tab:text-lg">POWWOW Home</p>
+          <p class="p-fv-pc__catchcopy mt-32 mb-20 tab:text-xl">お腹に赤ちゃんがいるママへ</p>
+          <h1 class="p-fv-pc__title tab:text-2xl">妊婦疲れを解消する<br>マタニティ整体</h1>
         </div>
         <client-only>
           <swiper class="swiperPC" :options="swiperOption">
@@ -31,8 +31,8 @@
         </swiper>
       </client-only >
       <div class="p-fv-sp__content">
-        <h1 class="p-fv-sp__title text-blue-dark">ママのための<br>出張整体</h1>  
-        <p class="p-fv-sp__brand-name font-bold text-blue-dark mt-10">QOHS Home</p>
+        <h1 class="p-fv-sp__title text-blue-dark">妊婦疲れを解消する<br>マタニティ整体</h1>  
+        <p class="p-fv-sp__brand-name text-blue-dark mt-10">パウワウホーム</p>
       </div>
     </div>  
   </section>
@@ -64,13 +64,13 @@ export default {
       // =========================================
       
       imagesPC: [ // PC swiper 画像
-        { link: require('@/assets/image/maternity/first-view-pc/fv_pc-1-new.png') },
+        { link: require('@/assets/image/maternity/first-view-pc/fv_pc-1-new.png?ver2') },
         { link: require('@/assets/image/maternity/first-view-pc/fv_pc-2-new.png') },
         { link: require('@/assets/image/maternity/first-view-pc/fv_pc-3-new.png') },
         { link: require('@/assets/image/maternity/first-view-pc/fv_pc-4-new.png') },
       ],
       imagesMobile: [ // Mobile swiper 画像
-        { link: require('@/assets/image/maternity/first-view-sp/fv_sp-1.png') },
+        { link: require('@/assets/image/maternity/first-view-sp/fv_sp-1.png?ver2') },
         { link: require('@/assets/image/maternity/first-view-sp/fv_sp-2.png') },
         { link: require('@/assets/image/maternity/first-view-sp/fv_sp-3.png') },
         { link: require('@/assets/image/maternity/first-view-sp/fv_sp-4.png') },
@@ -118,7 +118,7 @@ export default {
     }
     &__title {
       // font-size: 106px; // px表記
-      font-size: 7.36111vw; // vw表記
+      font-size: 5.8vw; // vw表記
       letter-spacing: .15em;
       line-height: 1.32;
       text-shadow: 2px 4px 8px #fff;
@@ -132,12 +132,12 @@ export default {
       padding-left: 46px;
     }
     &__title {
-      font-size: 30px;
+      font-size: 32px;
       letter-spacing: .15em;
       line-height: 1.67;
     }
     &__brand-name {
-      font-size: 35px;
+      font-size: 28px;
       letter-spacing: .1em;
       line-height: 2;
     }

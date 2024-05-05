@@ -11,7 +11,10 @@ const googleOptimize = `https://www.googleoptimize.com/optimize.js?id=OPT-KVFFDT
 export default {
   mode: 'spa', // @nuxtjs/deviceを使用するためにspa。デフォルトはuniversal
   router: {
-    base: '/lp/home/' // サブディレクトリのパス → デプロイ時にコメント外す
+    // ローカル、テストアップ用
+    // base: '/test/lp/home/'
+    // 本番用
+    base: '/lp/home/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

@@ -1,18 +1,18 @@
 <template>
-  <section>
-    <div class="bg-blue-dark py-14">
+  <section class="p-cta">
+    <div class="p-cta__bg py-14">
       <!-- <picture>
         <source srcset="@/assets/image/maternity/cta/course-sp-630.png" :media="picture.sp">
         <img class="mx-auto" src="@/assets/image/maternity/cta/course-pc-630.png" alt="" v-lazy-load>
       </picture> -->
       <picture>
-        <source srcset="@/assets/image/maternity/cta/course-pc-latest.webp" media="(min-width:768px)" type="image/webp" />
-        <source srcset="@/assets/image/maternity/cta/course-pc-latest.png" media="(min-width:768px)" />
-        <source srcset="@/assets/image/maternity/cta/course-sp-latest.webp" type="image/webp" />
-        <img class="mx-auto" src="@/assets/image/maternity/cta/course-sp-latest.png" alt="sp.jpg" />
+        <source srcset="@/assets/image/maternity/cta/240425-maternity-cta-sp.webp" media="(max-width:768px)" type="image/webp" />
+        <source srcset="@/assets/image/maternity/cta/240425-maternity-cta-sp.jpg" media="(max-width:768px)" />
+        <source srcset="@/assets/image/maternity/cta/240425-maternity-cta-pc.webp" type="image/webp" />
+        <img class="mx-auto" src="@/assets/image/maternity/cta/240425-maternity-cta-pc.jpg" alt="sp.jpg" />
       </picture>
       <div class="text-center mt-14 sp:mt-6">
-        <a href="https://lin.ee/zTsXoxq" @click="homeAddLine()" class="line-maternity inline-block" target="_blank">
+        <a href="https://line.me/ti/p/%40691zdiyo" @click="homeAddLine()" class="line-maternity inline-block" target="_blank">
           <img class="mx-auto hover:cursor-pointer" src="@/assets/image/maternity/cta/line-add.png" alt="" v-lazy-load>
         </a>
       </div>
@@ -71,7 +71,8 @@ export default {
 <style scoped lang="scss">
   .p-cta {
     &__bg {
-      background-color: rgba(105, 173, 180, 0.5);
+      // background-color: rgba(105, 173, 180, 0.5);
+      background-color: #ccd8d6;
     }
   }
 </style>

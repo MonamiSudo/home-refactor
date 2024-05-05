@@ -3,48 +3,61 @@ export const courseList = {
     return {
       courses: [
         {
-          name: 'ぐっすり快眠整体コース',
-          description: '',
+          name: 'ウィメンズ整体®︎（サクラムバランス®︎）コース',
+          description: 'なんとなく不調が続いている',
           price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
+            time60: 10220,
+            time90: 14780,
+            time120: 19340
           }  
         },
         {
-          name: '美容整体コース',
-          description: '',
+          name: '手足の巡りオイル整体コース',
+          description: '手足の冷えが気になる',
           price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
+            time100: 17300,
+            time120: 20340
           }
         },
         {
-          name: 'リモートワーク疲れ整体コース',
-          description: '',
+          name: '首肩徹底整体コース',
+          description: 'とにかく肩がつらい',
           price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
+            time100: 17300,
+            time120: 20340
           }
         },
         {
-          name: '産後骨盤矯正コース',
-          description: '',
+          name: '美姿勢サポート整体コース',
+          description: '猫背が気になる',
           price: {
-            time60: 9020,
-            time90: 12980,
-            time120: 16940
+            time60: 10220,
+            time90: 14780,
+            time120: 19340
           }
         },
         {
-          name: '整体師の行う、全身オイルコース',
-          description: '',
+          name: '産後骨盤整体コース',
+          description: '産後の心身の変化で悩んでいる',
           price: {
-            time60: 11660,
-            time90: 16940,
-            time120: 22220
+            time60: 10220,
+            time90: 14780,
+            time120: 19340
+          }
+        },
+        {
+          name: '更年期ゆらぎ整体コース',
+          description: 'お顔のほてりや眠りが浅い',
+          price: {
+            time90: 16330,
+            time120: 20890
+          }
+        },
+        {
+          name: 'マタニティケア整体コース',
+          description: '妊娠中の心身をケアしたい',
+          price: {
+            time60: 10220
           }
         }
       ]
